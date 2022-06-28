@@ -216,3 +216,32 @@ grid-area: a;
         "f g h"
         ;
 }
+
+}
+
+/* -------------animaciones------------- */
+
+
+.vela:hover{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+
+.boton{
+    padding: 3px 10px;
+    margin: 30px;
+    width: 100px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px grey;
+    border: 2px solid white;
+    text-align: center;
+}
+
+.boton:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
